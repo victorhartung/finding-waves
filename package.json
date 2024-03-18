@@ -1,0 +1,28 @@
+{
+  "name": "finding-waves",
+  "version": "1.0.0",
+  "description": "ts",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint" : "eslint ./src ./test --ext .ts",
+    "lint:fix" : "eslint ./src ./test --ext .ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "api"
+  ],
+  "author": "Victor Hartung",
+  "license": "ISC",
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^20.11.29",
+    "@typescript-eslint/eslint-plugin": "^7.3.0",
+    "@typescript-eslint/parser": "^7.3.0",
+    "eslint": "^8.57.0"
+  }
+}
